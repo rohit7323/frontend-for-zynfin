@@ -1,5 +1,5 @@
 // Placeholder backend webhook URL - Replace with your actual endpoint
-const API_URL = 'https://your-backend-webhook-url.com/chat';
+const API_URL = 'https://n8n-production-4106.up.railway.app/webhook/fd635600-e154-40f5-9008-c6f5135cd649';
 
 // DOM Elements
 const userInput = document.getElementById('user-input');
