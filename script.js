@@ -62,10 +62,6 @@ async function sendMessage() {
             body: JSON.stringify({ message }),
         });
 
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-
       const aiResponse = await response.text();
 
         // Hide loading and add AI response
