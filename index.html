@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZynFin - Smart AI Financial Advisor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ZynFin</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#ai-advisor">AI Advisor</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Smart AI Financial Advisor for Modern India</h1>
+                <p>Harness the power of AI to manage your budget, boost savings, and achieve your financial goals with personalized, data-driven insights tailored for Indian users.</p>
+                <a href="#ai-advisor" class="cta-button">Ask ZynFin AI</a>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-calculator"></i>
+                    <h3>AI Budget Planner</h3>
+                    <p>Automatically analyze your expenses and create customized budgets to help you stay on track.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-piggy-bank"></i>
+                    <h3>Smart Savings Advice</h3>
+                    <p>Get AI-driven recommendations to maximize savings based on your income and spending patterns.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Goal-Based Planning</h3>
+                    <p>Set and track financial goals like buying a home or retirement with AI-powered timelines and strategies.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Simple Financial Guidance</h3>
+                    <p>Receive easy-to-understand advice on investments, loans, and taxes, all powered by advanced AI.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-advisor" class="ai-chat">
+            <h2>Chat with ZynFin AI</h2>
+            <p>Get instant financial advice. Ask about budgeting, savings, or goal planning.</p>
+            <div class="chat-container">
+                <div id="chat-messages" class="chat-messages"></div>
+                <div class="chat-input-container">
+                    <input type="text" id="user-input" placeholder="Type your financial question here..." />
+                    <button id="send-button" class="send-button">Send</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 ZynFin. All rights reserved.</p>
+            <p>ZynFin provides educational financial guidance only. No guaranteed returns. Consult a professional advisor for personalized advice.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
