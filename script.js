@@ -66,8 +66,7 @@ async function sendMessage() {
             throw new Error('Network response was not ok');
         }
 
-        const data = await response.json();
-        const aiResponse = data.response || 'Sorry, I couldn\'t process your request. Please try again.';
+      const aiResponse = await response.text();
 
         // Hide loading and add AI response
         hideLoading();
